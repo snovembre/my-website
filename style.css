@@ -97,9 +97,18 @@ h1 {
 }
 
 @media screen and (max-width:768px) {
+   
+   .navbar ul{
+
     flex-direction: row;
     justify-content: space-evenly;
-}
+   }
+
+   .navbar a {
+        padding: 12px;
+        font-size: 16px;
+   }
+   
 
 @media screen and (max-width: 1024px) {
     .navbar ul {
